@@ -85,7 +85,9 @@ nav .logo:hover { text-decoration: none; }
 
 nav .nav-logo-img {
   height: 40px;
+  max-height: 40px;
   width: auto;
+  max-width: 120px;
   object-fit: contain;
 }
 
