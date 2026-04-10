@@ -84,11 +84,12 @@ nav .logo {
 nav .logo:hover { text-decoration: none; }
 
 nav .nav-logo-img {
-  height: 40px;
-  max-height: 40px;
-  width: auto;
-  max-width: 120px;
-  object-fit: contain;
+  height: 40px !important;
+  max-height: 40px !important;
+  width: auto !important;
+  max-width: 120px !important;
+  object-fit: contain !important;
+  display: block;
 }
 
 nav .logo span { color: var(--boundless-blue-light); }
