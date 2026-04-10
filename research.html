@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Research - Kevin Sun</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <nav>
     <div class="nav-inner">
-      <a href="index.html" class="logo">K<span>.</span>Sun</a>
+      <a href="index.html" class="logo">Kevin Sun</a>
       <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
@@ -34,23 +34,30 @@
     </div>
 
     <div class="pub-card animate-in delay-1">
+      <div class="pub-tags">
+        <span class="venue">Optimization and Engineering 2026</span>
+        <span class="status status-published">Published</span>
+      </div>
+      <p class="pub-title"><a href="https://doi.org/10.1007/s11081-025-10074-1" target="_blank" rel="noopener">Smart classify and optimize for portfolio construction &mdash; a differentiable quadratic programming approach</a></p>
       <p class="pub-authors"><strong>Sun, K.</strong>, Kwon, R.H.</p>
-      <p class="pub-title">Smart classify and optimize for portfolio construction &mdash; a differentiable quadratic programming approach</p>
-      <p class="pub-journal">Optimization and Engineering, 2026</p>
+      <p class="pub-journal">Optimization and Engineering</p>
+      <div class="tags">
+        <span class="tag">Differentiable Optimization</span>
+        <span class="tag">Portfolio Construction</span>
+        <span class="tag">Quadratic Programming</span>
+      </div>
       <a href="https://doi.org/10.1007/s11081-025-10074-1" target="_blank" rel="noopener" class="pub-link">
-        View Paper
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        &#128279; View Paper
       </a>
     </div>
 
     <!-- Research Experience -->
-    <div class="section-header animate-in" style="margin-top: 3.5rem;">
+    <div class="section-header animate-in" style="margin-top: 3rem;">
       <h1>Research Experience</h1>
       <p class="subtitle">Labs and institutes where I've contributed to active research.</p>
       <div class="section-divider"></div>
     </div>
 
-    <!-- Research 1 -->
     <div class="card animate-in delay-1">
       <div class="card-header">
         <div>
@@ -65,11 +72,11 @@
       <div class="card-body">
         <ul>
           <li>Working with Prof. Kieran Campbell and Ph.D. student Jett Lee on learning cellular representations from highly multiplexed imaging data that are robust to segmentation errors.</li>
-          <li>Developed 'MIGNON', a Python package for data augmentation of multiplexed imagery using IMC images and cellular masks. Employed advanced clustering techniques and UMAP for visualization of high-dimensional entities.</li>
+          <li>Developed 'MIGNON', a Python package for data augmentation of multiplexed imagery using IMC images and cellular masks. Employed advanced clustering techniques and UMAP for visualization.</li>
           <li>Developed and implemented a Variational Autoencoder (VAE) model with a customized loss function.</li>
         </ul>
         <div class="tags">
-          <span class="tag">Python</span>
+          <span class="tag blue">Python</span>
           <span class="tag">VAE</span>
           <span class="tag">UMAP</span>
           <span class="tag">IMC</span>
@@ -77,7 +84,6 @@
       </div>
     </div>
 
-    <!-- Research 2 -->
     <div class="card animate-in delay-2">
       <div class="card-header">
         <div>
@@ -92,11 +98,11 @@
       <div class="card-body">
         <ul>
           <li>Collaborated with postdoctoral scholars, mentored by Dr. Andrea Tricco and Dr. Ebrahim Bagheri, to pioneer the WISEST A.I. tool for systematic review quality assessment.</li>
-          <li>Developed algorithms for data pre-processing, gap-analysis, and exploratory data analysis. Pioneered a pipeline to transform systematic review PDFs into text for machine learning models.</li>
-          <li>Built a generative question-answering system via Dense Passage Retrieval (DPR); fine-tuned a BERT base model transformer and evaluated performance using annotated datasets.</li>
+          <li>Developed algorithms for data pre-processing, gap-analysis, and exploratory data analysis. Pioneered a pipeline to transform systematic review PDFs into text for ML models.</li>
+          <li>Built a generative question-answering system via Dense Passage Retrieval (DPR); fine-tuned a BERT base model and evaluated performance using annotated datasets.</li>
         </ul>
         <div class="tags">
-          <span class="tag">NLP</span>
+          <span class="tag blue">NLP</span>
           <span class="tag">BERT</span>
           <span class="tag">DPR</span>
           <span class="tag">Systematic Reviews</span>
@@ -104,7 +110,6 @@
       </div>
     </div>
 
-    <!-- Research 3 -->
     <div class="card animate-in delay-3">
       <div class="card-header">
         <div>
@@ -121,13 +126,12 @@
           <li>Worked under Prof. Camille Hebert and Prof. Irene Yi, employing Python to engineer web-scraping tools for data collection and contributing to the paper's appendix.</li>
         </ul>
         <div class="tags">
-          <span class="tag">Python</span>
+          <span class="tag blue">Python</span>
           <span class="tag">Web Scraping</span>
         </div>
       </div>
     </div>
 
-    <!-- Research 4 -->
     <div class="card animate-in delay-4">
       <div class="card-header">
         <div>
@@ -150,7 +154,6 @@
       </div>
     </div>
 
-    <!-- Research 5 -->
     <div class="card animate-in delay-5">
       <div class="card-header">
         <div>
@@ -175,7 +178,7 @@
     </div>
 
     <!-- Conference Presentations -->
-    <div class="section-header animate-in" style="margin-top: 3.5rem;">
+    <div class="section-header animate-in" style="margin-top: 3rem;">
       <h1>Conference &amp; Poster Presentations</h1>
       <div class="section-divider"></div>
     </div>
@@ -192,7 +195,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2026 Kevin Sun. All rights reserved.</p>
+    <p>&copy; 2026 Kevin Sun &middot; University of Toronto</p>
   </footer>
 
 </body>

@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Education - Kevin Sun</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <nav>
     <div class="nav-inner">
-      <a href="index.html" class="logo">K<span>.</span>Sun</a>
+      <a href="index.html" class="logo">Kevin Sun</a>
       <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
@@ -33,39 +33,31 @@
       <div class="section-divider"></div>
     </div>
 
-    <div class="card animate-in delay-1">
-      <div class="card-header">
-        <div>
-          <div class="card-title">University of Toronto</div>
-          <div class="card-subtitle">Ph.D. Student &middot; Financial Engineering (2nd Year)</div>
-        </div>
-        <div style="text-align: right;">
-          <div class="card-date">2024 &mdash; Present</div>
-          <div class="card-location">Toronto, Canada</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card animate-in delay-2">
-      <div class="card-header">
-        <div>
-          <div class="card-title">University of Toronto</div>
-          <div class="card-subtitle">B.Sc. in Mathematical Applications in Economics and Finance</div>
-        </div>
-        <div style="text-align: right;">
-          <div class="card-date">2020 &mdash; 2024</div>
-          <div class="card-location">Toronto, Canada</div>
+    <div class="education-container">
+      <div class="education-item animate-in delay-1">
+        <div class="edu-logo-placeholder">UofT</div>
+        <div class="edu-info">
+          <p><strong>University of Toronto</strong></p>
+          <p>Ph.D. Student in Financial Engineering (2nd Year) | &#128205; Toronto, Canada</p>
+          <p>2024 &mdash; Present</p>
+          <p>Focus: Machine Learning, Optimization, Quantitative Finance</p>
         </div>
       </div>
-      <div class="card-body">
-        <div class="tags" style="margin-top: 0;">
-          <span class="tag green">GPA: 3.91 / 4.00</span>
+      <div class="education-item animate-in delay-2">
+        <div class="edu-logo-placeholder">UofT</div>
+        <div class="edu-info">
+          <p><strong>University of Toronto</strong></p>
+          <p>Honors B.Sc. in Mathematical Applications in Economics and Finance | &#128205; Toronto, Canada</p>
+          <p>2020 &mdash; 2024</p>
+          <div class="tags" style="margin-top: 6px;">
+            <span class="tag teal">GPA: 3.91 / 4.00</span>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Skills -->
-    <div class="section-header animate-in" style="margin-top: 3.5rem;">
+    <div class="section-header animate-in" style="margin-top: 3rem;">
       <h1>Skills</h1>
       <div class="section-divider"></div>
     </div>
@@ -74,24 +66,24 @@
       <div class="skill-group">
         <h3>Programming</h3>
         <div class="skill-tags">
-          <span class="tag">Python</span>
-          <span class="tag">Java</span>
-          <span class="tag">R</span>
-          <span class="tag">SQL</span>
+          <span class="tag blue">Python</span>
+          <span class="tag blue">Java</span>
+          <span class="tag blue">R</span>
+          <span class="tag blue">SQL</span>
         </div>
       </div>
       <div class="skill-group">
         <h3>Languages</h3>
         <div class="skill-tags">
-          <span class="tag green">English (Native)</span>
-          <span class="tag green">Chinese (Native)</span>
-          <span class="tag green">Japanese (Elementary)</span>
+          <span class="tag teal">English (Native)</span>
+          <span class="tag teal">Chinese (Native)</span>
+          <span class="tag">Japanese (Elementary)</span>
         </div>
       </div>
     </div>
 
     <!-- Coursework -->
-    <div class="section-header animate-in" style="margin-top: 3.5rem;">
+    <div class="section-header animate-in" style="margin-top: 3rem;">
       <h1>Relevant Coursework</h1>
       <div class="section-divider"></div>
     </div>
@@ -131,7 +123,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2026 Kevin Sun. All rights reserved.</p>
+    <p>&copy; 2026 Kevin Sun &middot; University of Toronto</p>
   </footer>
 
 </body>
