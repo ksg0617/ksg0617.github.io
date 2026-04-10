@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teaching - Kevin Sun</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="logo">Kevin Sun</a>
+      <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="teaching.html" class="active">Teaching</a></li>
+        <li><a href="education.html">Education</a></li>
+      </ul>
+      <img src="uoft-logo.png" alt="University of Toronto" class="nav-logo-img">
+    </div>
+  </nav>
+
+  <main>
+    <div class="section-header animate-in">
+      <h1>Teaching</h1>
+      <p class="subtitle">Teaching assistant roles at the University of Toronto.</p>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="card animate-in delay-1">
+      <div class="card-header">
+        <div>
+          <div class="card-title">STA130: Introduction to Statistical Reasoning and Data Science</div>
+          <div class="card-subtitle">Teaching Assistant &middot; Department of Statistical Sciences</div>
+        </div>
+        <div style="text-align: right;">
+          <div class="card-date">Winter 2023, Fall 2023</div>
+          <div class="card-location">University of Toronto</div>
+        </div>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li>Appointed teaching assistant for two semesters (Winter 2023 and Fall 2023).</li>
+          <li>Led weekly in-person tutorials for a cohort of 25 students, provided office hours for lecture material review, and evaluated weekly assignments, examinations, and capstone projects.</li>
+        </ul>
+        <div class="tags">
+          <span class="tag blue">Statistics</span>
+          <span class="tag blue">Data Science</span>
+          <span class="tag">R</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card animate-in delay-2">
+      <div class="card-header">
+        <div>
+          <div class="card-title">MIE367: Cases in Operational Research</div>
+          <div class="card-subtitle">Teaching Assistant &middot; Department of Mechanical &amp; Industrial Engineering</div>
+        </div>
+        <div style="text-align: right;">
+          <div class="card-date">Winter 2026</div>
+          <div class="card-location">University of Toronto</div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="tags">
+          <span class="tag blue">Operational Research</span>
+          <span class="tag">Optimization</span>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Kevin Sun &middot; University of Toronto</p>
+  </footer>
+
+</body>
+</html>

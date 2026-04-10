@@ -83,6 +83,12 @@ nav .logo {
 
 nav .logo:hover { text-decoration: none; }
 
+nav .nav-logo-img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
 nav .logo span { color: var(--boundless-blue-light); }
 
 nav .nav-links {
